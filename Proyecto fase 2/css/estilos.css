@@ -10,7 +10,7 @@ box-sizing: border-box;
 }
 /* ESTILOS GENERALES (Selector de etiqueta)*/
 body {
-font-family: 'Inter', sans-serif;
+font-family: 'Times New Roman', Times, serif;
 background-image: url(../Imagenes/fondo\ chanel.jpg);
 background-size: contain;
 color: #da107f;
@@ -103,13 +103,16 @@ margin-bottom: 8px;
 /* =========================
 TABLA (Box model)
 ========================= */
+
+
 .ficha table {
 width: 100%;
 border-collapse: collapse;
 }
 .ficha th, .ficha td {
-border: 1px solid #747474;
+border: 2px solid #747474;
 padding: 10px;
+
 }
 .ficha th {
 background-color: #5e5a4b;
@@ -132,24 +135,24 @@ input {
 padding: 8px;
 width: 100%;
 max-width: 400px;
-border: 1px solid #ccc;
+border: 1px solid #ff64d8;
 border-radius: 5px;
 }
 
 /* Botón */
 input[type="submit"] {
-background-color: #7e724b;
+background-color: #f739cd;
 color: white;
 border: none;
 cursor: pointer;
 margin-top: 10px;
 }
 input[type="submit"]:hover {
-background-color: #4b3d0c;
+background-color: #f739cd;
 }
 
 /* GALERÍA (Grid + Flexbox alternativo) */
-.galeria {
+.Galería {
 display: flex;
 flex-direction: column;
 gap: 10px;
